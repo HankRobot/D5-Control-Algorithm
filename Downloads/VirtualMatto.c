@@ -24,13 +24,8 @@ double on3 = 1;
 double load1p = 0.8;
 double load2p = 1.8;
 double load3p = 1.4;
-//----------------------
-// example
 
-double temp; // Creating a variable.
-//NOTE: For simulation to work, use only "double" as the data type.
-// for boolean values, use 1.0 to represent "True" and 0.0 to represent "False"
-
+//pid control variables
 double set_target = 230;
 double integral = 0;
 double last_error = 0;
